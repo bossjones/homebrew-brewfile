@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #/ Usage: tests.sh
 set -e
+cd "$(dirname "$0")/.."
 
 [[ $1 == "--debug" || -o xtrace ]] && ZSH_DOTFILES_PREP_DEBUG="1"
 ZSH_DOTFILES_PREP_SUCCESS=""
