@@ -20,5 +20,7 @@ jobs:
 
       - run: brew config
 
+      - run: brew cleanup
+
       - run: brew doctor
 
