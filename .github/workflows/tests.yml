@@ -16,6 +16,7 @@ jobs:
         env:
           ZSH_DOTFILES_PREP_CI: 1
           ZSH_DOTFILES_PREP_DEBUG: 1
+          ZSH_DOTFILES_PREP_GITHUB_USER: bossjones
 
       - run: brew config
 
